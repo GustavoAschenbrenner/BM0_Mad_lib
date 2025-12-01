@@ -1,1 +1,24 @@
-print("hello world")
+import time
+import random
+
+story = random.randient(1,2)
+
+if story == 1:
+	adjective = input('all the students at maker are very ____ (adjective).')
+	print('all the students at maker are very {adjective}')
+	time.sleep(1)
+	verb = input ('the teachers are always buisy _____ (verb) assignments.')
+	print('the teachers are always buisy {verb} assignments')
+	time.sleep(1)
+	noun = input ('we sometimes have feild trips to places like _____ (noun)')
+	print('we sometimes have feild trips to places like {noun}')
+else:
+	verb1 = input('during thanksgiving the family was buisy ____ (verb) dinner.')
+	print('during thanksgiving the family was buisy {verb1} dinner')
+	time.sleep(1)
+	noun1 = input('thanksgiving is very exiting when its at ____ (noun).')
+	print('thanksgiving is very exiting when its at {noun1}.')
+	time.sleep(1)
+	adjective1 = input('when the cooking is done everyone is _____ (adjective) to eat the feast.')
+	print('when the cooking is done everyone is {adjective1} to eat the feast')
+	

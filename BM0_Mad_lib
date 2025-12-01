@@ -1,7 +1,7 @@
 import time
 import random
 
-story = random.randient(1,2)
+story = random.randint(1,2)
 
 if story == 1:
 	adjective = input('all the students at maker are very ____ (adjective).')
@@ -21,4 +21,3 @@ else:
 	time.sleep(1)
 	adjective1 = input('when the cooking is done everyone is _____ (adjective) to eat the feast.')
 	print('when the cooking is done everyone is {adjective1} to eat the feast')
-	
